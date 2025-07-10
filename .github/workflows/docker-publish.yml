@@ -98,5 +98,5 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: test
-        run: docker run oscarhd13/${{ env.IMAGE_NAME }}:main
+        run: docker run oscarhd13/repo3:main
     
